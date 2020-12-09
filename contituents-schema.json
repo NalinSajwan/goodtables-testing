@@ -1,0 +1,54 @@
+{
+  "fields": [
+    {
+      "name": "Symbol",
+      "type": "string"
+    }, {
+      "name": "Name",
+      "type": "string"
+    }, {
+      "name": "Sector",
+      "type": "string"
+    }, {
+      "name": "Price",
+      "type": "number",
+      "constraints": {
+        "required": true
+      }
+    }, {
+      "name": "Price/Earnings",
+      "type": "number",
+      "constraints": {
+        "required": true
+      }
+    }, {
+      "name": "Dividend Yield",
+      "type": "number"
+    }, {
+      "name": "Earnings/Share",
+      "type": "number"
+    }, {
+      "name": "52 Week Low",
+      "type": "number"
+    }, {
+      "name": "52 Week High",
+      "type": "number"
+    }, {
+      "name": "Market Cap",
+      "type": "number"
+    }, {
+      "name": "EBITDA",
+      "type": "number"
+    }, {
+      "name": "Price/Sales",
+      "type": "number"
+    }, {
+      "name": "Price/Book",
+      "type": "number"
+    }, {
+      "name": "SEC Filings",
+      "type": "string",
+      "format": "uri"
+    }
+  ]
+}

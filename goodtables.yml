@@ -1,0 +1,7 @@
+files:
+  - source: constituents-financials.csv
+    schema: contituents-schema.json
+
+settings:
+  infer_schema: True
+  infer_fields: True
